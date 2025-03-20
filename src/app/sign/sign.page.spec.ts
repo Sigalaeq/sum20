@@ -1,13 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { SignPage } from './sign.page';
 
-import { HomePage } from './home.page';
+describe('SignPage', () => {
+  let component: SignPage;
+  let fixture: ComponentFixture<SignPage>;
 
-describe('HomePage', () => {
-  let component: HomePage;
-  let fixture: ComponentFixture<HomePage>;
-
-  beforeEach(async () => {
-    fixture = TestBed.createComponent(HomePage);
+  beforeEach(() => {
+    fixture = TestBed.createComponent(SignPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

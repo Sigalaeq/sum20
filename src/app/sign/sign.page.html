@@ -1,6 +1,8 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Crear cuenta</ion-title>
+    <ion-title>
+      Inicio de sesion
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -15,12 +17,18 @@
     <button type="submit"
       class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
       [disabled]="registerForm.invalid">
-      crear cuenta
+      Iniciar sesion
     </button>
   </form>
   <button (click)="onSignUp()" type="button"
     class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
-    Ir a inicio de sesion
+    Crear cuenta
   </button>
-
+  <button (click)="onForgot()" type="button"
+    class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+    Olvide mi contraseña
+  </button>
+  <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">We’ll never share your details. Read our <a
+      href="https://www.youtube.com/watch?v=ehRB3JAOtdU"
+      class="font-medium text-blue-600 hover:underline dark:text-blue-500">Privacy Policy</a>.</p>
 </ion-content>
