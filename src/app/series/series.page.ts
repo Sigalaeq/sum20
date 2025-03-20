@@ -9,9 +9,9 @@ import { BaseService, Task } from '../base.service';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-peliculas',
-  templateUrl: './peliculas.page.html',
-  styleUrls: ['./peliculas.page.scss'],
+  selector: 'app-series',
+  templateUrl: './series.page.html',
+  styleUrls: ['./series.page.scss'],
   standalone: true,
   imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, IonButton, IonGrid, IonRow, IonCol, IonItem]
 })
