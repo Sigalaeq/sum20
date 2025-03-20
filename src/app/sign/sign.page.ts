@@ -38,7 +38,7 @@ export class SignPage implements OnInit {
         buttons: ['OK'],
       });
       await alert.present();
-      this.router.navigateByUrl("peliculas");
+      this.router.navigateByUrl("series");
     } catch (error) {
       const alert = await this.alertController.create({
         header: 'ERROR',
